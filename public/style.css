@@ -1,0 +1,138 @@
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: calc(13 / 12);
+  color: #222222;
+  background: #e9feff;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 550px;
+  margin: 50px auto;
+  background: aliceblue;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0 0 0 / 10%);
+}
+
+/* Navbar */
+
+.nav {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  margin-bottom: 26px;
+}
+
+.nav__media {
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero__media {
+  padding-left: 77px;
+  padding-right: 77px;
+  margin-bottom: 32px;
+}
+
+.hero__inner {
+  padding-left: 36px;
+  padding-right: 176px;
+}
+
+.hero__inner-title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.hero__inner-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  letter-spacing: 0.7px;
+}
+
+/* Card */
+
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px 25px 36px;
+}
+
+.card {
+  position: relative;
+  flex: 0 0;
+}
+.card__media {
+  max-width: 176px;
+  max-height: 235px;
+  margin-bottom: 9px;
+  border-radius: 9px;
+}
+
+.card__badge {
+  position: absolute;
+  padding: 5px 6px;
+  background: #ffffff;
+  border-radius: 2px;
+  font-size: 10px;
+  top: 6px;
+  left: 6px;
+}
+
+.card__stats {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 4px;
+}
+
+.card__stats-star {
+  height: 14px;
+}
+
+.card__stats > span {
+  margin-left: 4px;
+}
+
+.card__info-title {
+  font-weight: 300;
+  height: 40px;
+}
